@@ -28,11 +28,11 @@ int main() {
                     }
                     okunus = birler[x] + "yuz" + okunus;
                     break;
-                default:
-                    okunus = "Girilen sayi aralik disindadir.";
-                    break;
+                
             }
         }
+    } else {
+        cout << "Girdiginiz sayi aralik disindadir.";
     }
     cout << okunus;
     return 0;
